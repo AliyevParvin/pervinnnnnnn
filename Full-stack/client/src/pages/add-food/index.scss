@@ -1,0 +1,35 @@
+#add-page {
+  background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 200px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    .form {
+        h1{
+            color: white;
+        }
+      padding: 40px;
+      
+      .field {
+        margin: 10px;
+        input {
+          padding: 10px 20px;
+          border-radius: 10px;
+          border: 0px;
+        }
+      }
+      button {
+        padding: 12px 25px;
+        background-color: blue;
+        border-radius: 10px;
+        border: 0px;
+        margin-left: 65px;
+        color: white;
+      }
+    }
+  }
+}

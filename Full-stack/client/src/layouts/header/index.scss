@@ -1,0 +1,40 @@
+#header {
+    div {
+        display: flex;
+        background-color: black;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+        width: 100%;
+        .container {
+      div {
+        a {
+          color: white;
+        }
+      }
+      div {
+        ul {
+          display: flex;
+          column-gap: 20px;
+          li {
+            a {
+                color: white;
+                &:hover {
+                  color: #d61c22;
+                }
+              }
+          }
+        }
+      }
+      .icons {
+        i {
+          margin: 10px;
+          &:hover {
+            color: #d61c22;
+          }
+        }
+      }
+    }
+  }
+}

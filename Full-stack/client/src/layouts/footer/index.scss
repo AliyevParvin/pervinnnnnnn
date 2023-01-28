@@ -1,0 +1,20 @@
+#footer {
+  background-color: black;
+  padding: 50px 0;
+  color: white;
+  .container {
+    .footerdiv {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      .icons {
+        i {
+          margin: 10px;
+          &:hover {
+            color: #d61c22;
+          }
+        }
+      }
+    }
+  }
+}
